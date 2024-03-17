@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff; /* Setting text color to white for better visibility */
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+}
+
+main {
+    margin-top: 30px;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #333; /* Setting input background color */
+    color: #fff; /* Setting text color to white */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc0812;
+}
+
+a {
+    text-decoration: none;
+    color: #ccc; /* Adjusting link color */
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer a {
+    margin: 0 10px;
+    color: #ccc; /* Adjusting link color */
+}
+/* Existing CSS styles remain the same */
+
+.password-input {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url('eye_icon.png'); /* Replace with your eye icon */
+    background-size: cover;
+    cursor: pointer;
+}
+
+.toggle-password.visible {
+    background-image: url('eye_slash_icon.png'); /* Replace with your eye-slash icon */
+}

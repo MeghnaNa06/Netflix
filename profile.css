@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+}
+
+main {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.profiles-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.profile {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.profile:hover {
+    background-color: #e50914;
+}
+
+.profile img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; /* Optional: if you want rounded corners */
+    margin-bottom: 10px;
+}
+.kids {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin: 5; /* Center the element horizontally */
+    width: 220px; /* Adjust the width as needed */
+    height: 180px; /* Adjust the height as needed */
+}
+
+.kids:hover {
+    background-color: #e50914;
+}
